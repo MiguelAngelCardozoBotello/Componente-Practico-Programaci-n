@@ -1,0 +1,30 @@
+2026-07-26 13:16:58,200 - INFO - modelos.reserva - Reserva 1 creada en estado 'pendiente' para el cliente Laura Gómez y el servicio Sala Ejecutiva A.
+2026-07-26 13:16:58,201 - INFO - modelos.reserva - Reserva 1 confirmada. Costo total: $238000.0
+2026-07-26 13:16:58,202 - DEBUG - modelos.reserva - Intento de confirmación finalizado para la reserva 1.
+2026-07-26 13:16:58,202 - INFO - modelos.reserva - Reserva 1 procesada exitosamente.
+2026-07-26 13:16:58,203 - DEBUG - modelos.reserva - Intento de procesamiento finalizado para la reserva 1.
+2026-07-26 13:16:58,204 - INFO - modelos.reserva - Reserva 2 creada en estado 'pendiente' para el cliente Carlos Pérez y el servicio Asesoría en Marketing.
+2026-07-26 13:16:58,204 - INFO - modelos.reserva - Reserva 2 confirmada. Costo total: $571200.0
+2026-07-26 13:16:58,205 - DEBUG - modelos.reserva - Intento de confirmación finalizado para la reserva 2.
+2026-07-26 13:16:58,205 - INFO - modelos.reserva - Reserva 2 procesada exitosamente.
+2026-07-26 13:16:58,205 - DEBUG - modelos.reserva - Intento de procesamiento finalizado para la reserva 2.
+2026-07-26 13:16:58,205 - INFO - modelos.reserva - Reserva 3 creada en estado 'pendiente' para el cliente Laura Gómez y el servicio Videobeam.
+2026-07-26 13:16:58,206 - INFO - modelos.reserva - Reserva 3 confirmada. Costo total: $71400.0
+2026-07-26 13:16:58,206 - DEBUG - modelos.reserva - Intento de confirmación finalizado para la reserva 3.
+2026-07-26 13:16:58,206 - INFO - modelos.reserva - Reserva 3 procesada exitosamente.
+2026-07-26 13:16:58,206 - DEBUG - modelos.reserva - Intento de procesamiento finalizado para la reserva 3.
+2026-07-26 13:16:58,207 - ERROR - modelos.reserva - El cliente asociado a la reserva no es una instancia válida de Cliente.
+2026-07-26 13:16:58,207 - ERROR - modelos.reserva - El servicio asociado a la reserva no es una instancia válida de Servicio.
+2026-07-26 13:16:58,208 - ERROR - modelos.reserva - El servicio 'Laptop' no se encuentra disponible actualmente.
+2026-07-26 13:16:58,209 - ERROR - modelos.reserva - La fecha '01/08/2026' no tiene un formato válido (se espera AAAA-MM-DD).
+2026-07-26 13:16:58,210 - ERROR - modelos.reserva - La duración de la reserva debe ser un número mayor que cero.
+2026-07-26 13:16:58,210 - INFO - modelos.reserva - Reserva 9 creada en estado 'pendiente' para el cliente Carlos Pérez y el servicio Asesoría en Marketing.
+2026-07-26 13:16:58,211 - ERROR - modelos.reserva - La reserva 9 debe estar confirmada antes de procesarse (estado actual: 'pendiente').
+2026-07-26 13:16:58,211 - INFO - modelos.reserva - Reserva 10 creada en estado 'pendiente' para el cliente Laura Gómez y el servicio Videobeam.
+2026-07-26 13:16:58,211 - INFO - modelos.reserva - Reserva 10 confirmada. Costo total: $35700.0
+2026-07-26 13:16:58,212 - DEBUG - modelos.reserva - Intento de confirmación finalizado para la reserva 10.
+2026-07-26 13:16:58,212 - INFO - modelos.reserva - Reserva 10 procesada exitosamente.
+2026-07-26 13:16:58,212 - DEBUG - modelos.reserva - Intento de procesamiento finalizado para la reserva 10.
+2026-07-26 13:16:58,212 - ERROR - modelos.reserva - No se puede cancelar la reserva 10 porque ya fue procesada.
+2026-07-26 13:16:58,212 - INFO - modelos.reserva - Reserva 11 creada en estado 'pendiente' para el cliente Carlos Pérez y el servicio Sala Ejecutiva A.
+2026-07-26 13:16:58,213 - ERROR - modelos.reserva - El descuento debe ser un porcentaje entre 0 y 100.
