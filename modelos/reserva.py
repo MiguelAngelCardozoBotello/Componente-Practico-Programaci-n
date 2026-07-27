@@ -24,6 +24,8 @@ from excepciones.excepciones_reserva import (
     EstadoReservaError,
     CostoInvalidoError,
     ReservaError,
+    ReservaDuplicadaError,
+    LogError,
 )
 from utils.logger_config import obtener_logger
 
