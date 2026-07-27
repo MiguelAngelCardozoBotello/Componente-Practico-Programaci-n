@@ -38,3 +38,21 @@ def obtener_logger(nombre):
         logger.addHandler(manejador_consola)
 
     return logger
+
+def registrar_evento(logger, nivel, mensaje):
+    """
+    Registra un evento en el log según el nivel indicado.
+    Niveles soportados: INFO, WARNING, ERROR y DEBUG.
+    """
+    nivel = nivel.upper()
+
+    if nivel == "INFO":
+        logger.info(mensaje)
+    elif nivel == "WARNING":
+        logger.warning(mensaje)
+    elif nivel == "ERROR":
+        logger.error(mensaje)
+    elif nivel == "DEBUG":
+        logger.debug(mensaje)
+    else:
+        logger.info(mensaje)
