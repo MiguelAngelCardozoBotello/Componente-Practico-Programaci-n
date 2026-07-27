@@ -132,6 +132,9 @@ def probar_reservas():
 
         ("Calcular costo con un descuento inválido (mayor al 100%)",
          lambda: _descuento_invalido(11, cliente_2, sala)),
+
+        ("Intentar confirmar una reserva dos veces",
+         lambda: _confirmar_dos_veces(12, cliente_1, sala)), 
     ]
 
     for numero, (descripcion, accion) in enumerate(simulaciones, start=1):

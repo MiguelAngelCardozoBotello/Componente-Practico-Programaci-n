@@ -11,7 +11,7 @@ Desarrollar un sistema integral orientado a objetos, estable, modular y extensib
 ## Integrantes
 - Miguel Ángel Cardozo Botello
 - Steven Rodríguez Botero
-- Integrante 3
+- Andres Orellano Pedroza
 - Integrante 4
 - Integrante 5
 

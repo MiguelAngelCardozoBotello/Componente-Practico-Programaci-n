@@ -46,3 +46,12 @@ class CostoInvalidoError(ReservaError):
     """Se lanza cuando el cálculo del costo produce un valor inválido:
     descuentos fuera de rango, costos negativos o inconsistentes."""
     pass
+
+class ReservaDuplicadaError(ReservaError):
+    """Se lanza cuando se intenta registrar una reserva que ya existe."""
+    pass
+
+
+class LogError(ReservaError):
+    """Se lanza cuando ocurre un problema al registrar eventos en el sistema de logs."""
+    pass
